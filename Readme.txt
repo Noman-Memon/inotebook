@@ -1,3 +1,4 @@
+-------------------create Backend-------------------------
 1. install mongoDB
 2. create react app (npx create-react-app name)
 3. add folder name(backend)
@@ -39,3 +40,6 @@ set node_modules folder in gitignore.
 	1.fetchuser.js	((const jwt = require('jsonwebtoken'))
 Note:*** If we want to use request.body we use middle where that is (app.use(express.jason());
 -----------------------------------------------------------------------------------
+-------------------------Create Frontend(React App)----------------------
+1. npm install react-router-dom
+2. npm install concurrently
