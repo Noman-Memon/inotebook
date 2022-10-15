@@ -42,4 +42,10 @@ Note:*** If we want to use request.body we use middle where that is (app.use(exp
 -----------------------------------------------------------------------------------
 -------------------------Create Frontend(React App)----------------------
 1. npm install react-router-dom
-2. npm install concurrently
+2. npm install concurrently ("both": "concurrently \"npm run start\" \"nodemon backend/index.js\""(add this in package.json--->"scripts"))
+3. npm run both (start client and server both)
+4. create components
+	Navbar.js
+	Home.js
+	About.js
+5. set router by react-router-dom (must use 'exact' before evry path)
