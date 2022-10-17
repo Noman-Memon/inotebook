@@ -54,7 +54,9 @@ Note:*** If we want to use request.body we use middle where that is (app.use(exp
 	create Two fils
 	1.noteContext.js (import {createContext} from "react")
 	2.NoteState.js  (import NoteContext from "./noteContext")
-*** Note: if we want to use this context then "import {useContext} from react"
-					      "import noteContext from "../context/notes/noteContext"" in component as where ever we want and enclosed all
- routes in App.js this like e.g.:<NoteState>.....<NoteState/>
-by this we have enable to use state value in this component or any component
+**Note:enclosed all routes in App.js this like e.g.:<NoteState>.....<NoteState/>
+  by this we have enable to use state value in this component or any component
+
+2. if we want to use this context any component e.g.About.js then "import {useContext} from react"
+					      "import noteContext from "../context/notes/noteContext"" in this component
+--------------------------------------------------------------------------------
