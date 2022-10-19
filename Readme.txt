@@ -48,6 +48,8 @@ Note:*** If we want to use request.body we use middle where that is (app.use(exp
 	Navbar.js
 	Home.js
 	About.js
+	Notes.js
+	Noteitem.js
 5. set router by react-router-dom (must use 'exact' before evry path)
 --------------------------create context API------------------------------
 1. create folder in src(context)-->folder(notes)-->
